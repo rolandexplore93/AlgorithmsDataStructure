@@ -1,4 +1,5 @@
 ﻿using AlgorithmsDataStructure.ADT;
+using AlgorithmsDataStructure.Stack;
 using System.Collections;
 
 Schools aru = new Schools();
@@ -33,8 +34,48 @@ for (int index = 1; index < numbersArr.Length; index++)
 }
 
 
-var myList = new LinkedList<int>();
-myList.AddLast(10);
-myList.AddLast(20);
-myList.AddLast(30);
-//myList.Display(); // Output: 10 20 30
+//var myList = new LinkedList<int>();
+//myList.AddLast(10);
+//myList.AddLast(20);
+//myList.AddLast(30);
+////myList.Display(); // Output: 10 20 30
+
+
+// Creating an List<T> of Integers
+List<int> firstlist = new List<int>();
+
+// Adding elements to List
+firstlist.Add(1);
+firstlist.Add(2);
+firstlist.Add(3);
+firstlist.Add(4);
+firstlist.Add(5);
+firstlist.Add(6);
+firstlist.Add(7);
+
+// Checking whether 4 is present
+// in List or not
+//Console.Write(firstlist.Contains(4));
+
+// STACK - words manipulation
+// Test cases
+WordMachine wordMachine = new WordMachine();
+//Console.WriteLine(wordMachine.solution(""));
+//Console.WriteLine(wordMachine.solution("4 5 6 - 7 +")); // Expected output: 8
+//Console.WriteLine(wordMachine.solution("13 DUP 4 POP 5 DUP + DUP + -")); // Expected output: 7
+//Console.WriteLine(wordMachine.solution("5 6 + -")); // Expected output: -1
+//Console.WriteLine(wordMachine.solution("3 DUP 5 - -")); // Expected output: -1
+//Console.WriteLine(wordMachine.solution("1048575 DUP +")); // Expected output: -1
+
+
+// QUEUE - shopping client
+Console.WriteLine(wordMachine.GroceryClients([1, 1, 0, 0, 1]));
+
+// STACK - string of multiple types
+Console.WriteLine(wordMachine.StringOfMultipleTypes("[]"));
+Console.WriteLine(wordMachine.StringOfMultipleTypes("[][]{}()"));
+Console.WriteLine(wordMachine.StringOfMultipleTypes("[][]}{{}[)()"));
+
+
+// STACK - number of fishes
+Console.WriteLine(wordMachine.SurvivingFishes([1,4, 2, 2, 6], [0,0,1,0, 0]));
