@@ -1,4 +1,5 @@
 ﻿using AlgorithmsDataStructure.ADT;
+using AlgorithmsDataStructure.Questions;
 using AlgorithmsDataStructure.Stack;
 using System.Collections;
 
@@ -69,13 +70,23 @@ WordMachine wordMachine = new WordMachine();
 
 
 // QUEUE - shopping client
-Console.WriteLine(wordMachine.GroceryClients([1, 1, 0, 0, 1]));
+//Console.WriteLine(wordMachine.GroceryClients([1, 1, 0, 0, 1]));
 
-// STACK - string of multiple types
-Console.WriteLine(wordMachine.StringOfMultipleTypes("[]"));
-Console.WriteLine(wordMachine.StringOfMultipleTypes("[][]{}()"));
-Console.WriteLine(wordMachine.StringOfMultipleTypes("[][]}{{}[)()"));
+//// STACK - string of multiple types
+//Console.WriteLine(wordMachine.StringOfMultipleTypes("[]"));
+//Console.WriteLine(wordMachine.StringOfMultipleTypes("[][]{}()"));
+//Console.WriteLine(wordMachine.StringOfMultipleTypes("[][]}{{}[)()"));
 
 
-// STACK - number of fishes
-Console.WriteLine(wordMachine.SurvivingFishes([1,4, 2, 2, 6], [0,0,1,0, 0]));
+//// STACK - number of fishes
+//Console.WriteLine(wordMachine.SurvivingFishes([1,4, 2, 2, 6], [0,0,1,0, 0]));
+
+
+// Solving questions
+ProblemSolving problemSolving = new ProblemSolving();
+//problemSolving.CheckValidStringInput("");
+//problemSolving.CheckValidStringInput("BOIL");
+//problemSolving.CheckValidStringInput("BRAisE");
+//problemSolving.CheckValidStringInput("ROAST");
+problemSolving.CheckValidStringInput("BLNKEET");
+problemSolving.CheckValidStringInput("BLANKETCOVER");
