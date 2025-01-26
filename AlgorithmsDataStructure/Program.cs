@@ -46,13 +46,13 @@ for (int index = 1; index < numbersArr.Length; index++)
 List<int> firstlist = new List<int>();
 
 // Adding elements to List
-firstlist.Add(1);
-firstlist.Add(2);
-firstlist.Add(3);
-firstlist.Add(4);
-firstlist.Add(5);
-firstlist.Add(6);
-firstlist.Add(7);
+//firstlist.Add(1);
+//firstlist.Add(2);
+//firstlist.Add(3);
+//firstlist.Add(4);
+//firstlist.Add(5);
+//firstlist.Add(6);
+//firstlist.Add(7);
 
 // Checking whether 4 is present
 // in List or not
@@ -88,5 +88,5 @@ ProblemSolving problemSolving = new ProblemSolving();
 //problemSolving.CheckValidStringInput("BOIL");
 //problemSolving.CheckValidStringInput("BRAisE");
 //problemSolving.CheckValidStringInput("ROAST");
-problemSolving.CheckValidStringInput("BLNKEET");
-problemSolving.CheckValidStringInput("BLANKETCOVER");
+//problemSolving.CheckValidStringInput("BLNKEET");
+//problemSolving.CheckValidStringInput("BLANKETCOVER");
