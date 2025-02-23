@@ -1,15 +1,17 @@
 ﻿using AlgorithmsDataStructure.ADT;
-using AlgorithmsDataStructure.Questions;
+using AlgorithmsDataStructure.ProblemSolving;
 using AlgorithmsDataStructure.Stack;
-using System.Collections;
 
-Schools aru = new Schools();
-//Stack values = new Stack();
+//const int MaxV = (1 << 20);
+//double MaxValue = Math.Pow(2, 20);
+
+//Schools aru = new Schools();
+////Stack values = new Stack();
 
 
-// ARRAY INSERTIONS
-// Insert at the end of array
-int[] numbersArr = new int[6];
+//// ARRAY INSERTIONS
+//// Insert at the end of array
+//int[] numbersArr = new int[6];
 //int length = 0;
 
 //for (int index = 0; index < numbersArr.Length; index++)
@@ -24,15 +26,15 @@ int[] numbersArr = new int[6];
 
 
 // Insert at the start of array
-int lengthCount = 0;
-// Insert number 12 at start of the array (i.e index 0, which is the first item in the list)
-numbersArr[lengthCount] = 12;
-Console.WriteLine(numbersArr[lengthCount]);
+//int lengthCount = 0;
+//// Insert number 12 at start of the array (i.e index 0, which is the first item in the list)
+//numbersArr[lengthCount] = 12;
+//Console.WriteLine(numbersArr[lengthCount]);
 
-for (int index = 1; index < numbersArr.Length; index++)
-{
-    numbersArr[index] = index + 2;
-}
+//for (int index = 1; index < numbersArr.Length; index++)
+//{
+//    numbersArr[index] = index + 2;
+//}
 
 
 //var myList = new LinkedList<int>();
@@ -43,7 +45,7 @@ for (int index = 1; index < numbersArr.Length; index++)
 
 
 // Creating an List<T> of Integers
-List<int> firstlist = new List<int>();
+//List<int> firstlist = new List<int>();
 
 // Adding elements to List
 //firstlist.Add(1);
@@ -60,7 +62,7 @@ List<int> firstlist = new List<int>();
 
 // STACK - words manipulation
 // Test cases
-WordMachine wordMachine = new WordMachine();
+//WordMachine wordMachine = new WordMachine();
 //Console.WriteLine(wordMachine.solution(""));
 //Console.WriteLine(wordMachine.solution("4 5 6 - 7 +")); // Expected output: 8
 //Console.WriteLine(wordMachine.solution("13 DUP 4 POP 5 DUP + DUP + -")); // Expected output: 7
@@ -83,10 +85,17 @@ WordMachine wordMachine = new WordMachine();
 
 
 // Solving questions
-ProblemSolving problemSolving = new ProblemSolving();
+//CheckValidString problemSolving = new CheckValidString();
 //problemSolving.CheckValidStringInput("");
 //problemSolving.CheckValidStringInput("BOIL");
 //problemSolving.CheckValidStringInput("BRAisE");
 //problemSolving.CheckValidStringInput("ROAST");
 //problemSolving.CheckValidStringInput("BLNKEET");
 //problemSolving.CheckValidStringInput("BLANKETCOVER");
+
+//Harshad harshad = new Harshad();
+//harshad.ProcessHarshadNumber();
+//harshad.IsHarshadNumber();
+//Harshad.IsHarshadNumber();
+
+Harshad.ProcessHarshadNumber();

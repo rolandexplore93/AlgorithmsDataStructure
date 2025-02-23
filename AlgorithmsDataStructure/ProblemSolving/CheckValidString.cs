@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AlgorithmsDataStructure.Questions
+namespace AlgorithmsDataStructure.ProblemSolving
 {
-    public class ProblemSolving
+    public class CheckValidString
     {
         // Check if the input length is within the valid range of 5-7
         // Check if the input are all in upper case

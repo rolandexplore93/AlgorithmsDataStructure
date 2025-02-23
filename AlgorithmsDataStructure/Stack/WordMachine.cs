@@ -17,11 +17,15 @@ namespace AlgorithmsDataStructure.Stack
             // Define the maximum value for the 20-bit unsigned integer
             const int MAX_VALUE = (1 << 20) - 1;
 
+            if (string.IsNullOrEmpty(S)) return -1;
+
             // Create an empty stack to store the integers
             Stack<int> stack = new Stack<int>();
 
             // Split the string from user input into an array of string
             string[] operations = S.Split(' ');
+
+            
 
             try
             {

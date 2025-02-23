@@ -24,7 +24,7 @@ namespace AlgorithmsDataStructure.OOP
 
 
     // With OOP - Encapsulation
-    // Encapsulation is the practice of bundling data and method that operate on the data into a single unit (i.e within a class) while restricting direct access to some of its components
+    // Encapsulation is the practice of bundling data and method that operate on the data into a single unit (i.e within a class) while restricting direct access to some of the class object components
     // This usually achieved through private fields and public getters/setters
     // WHY: Encapsulation hides the internal state of an object and only expose controlled interface
     public class MerchantRefactored
@@ -39,6 +39,9 @@ namespace AlgorithmsDataStructure.OOP
             _name = name;
             _email = email;
         }
+
+        public string Name => _name;
+        public string Email => _email;
 
         public void UpdateEmail(string newEmail)
         {
